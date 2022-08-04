@@ -1,0 +1,33 @@
+.main {
+    padding: 3em 2em;
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.title {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.detailsContainer {
+    width: 40%;
+    border: 2px solid black;
+    h2 {
+        text-align: center;
+    }
+    div{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 0;
+        border: 2px solid black;
+        font-size: 1.2em;
+        //height: 100%;
+    }
+    
+}
